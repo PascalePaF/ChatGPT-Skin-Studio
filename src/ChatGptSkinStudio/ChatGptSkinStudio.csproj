@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeFrameworkVersion>8.0.29</RuntimeFrameworkVersion>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\assets\app.ico</ApplicationIcon>
+    <AssemblyName>ChatGptSkinStudio</AssemblyName>
+    <RootNamespace>ChatGptSkinStudio</RootNamespace>
+    <Version>1.1.4</Version>
+    <AssemblyVersion>1.1.4.0</AssemblyVersion>
+    <FileVersion>1.1.4.0</FileVersion>
+    <Product>ChatGPT Skin Studio</Product>
+    <Company>Skin Studio</Company>
+    <Description>Local startup animation and wallpaper companion for ChatGPT Desktop</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="..\..\assets\app.ico" Link="Assets\app.ico" />
+    <Content Include="..\..\assets\halloween-manor-final.png" Link="assets\halloween-manor-final.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="..\..\build\native\SkinRenderer.exe" Link="native\SkinRenderer.exe" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" Condition="Exists('..\..\build\native\SkinRenderer.exe')" />
+  </ItemGroup>
+</Project>

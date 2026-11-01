@@ -1,0 +1,30 @@
+build/
+dist/
+research-cache/
+**/bin/
+**/obj/
+*.user
+*.log
+.vs/
+
+# Local collaboration notes and development-session records.
+/AGENTS.md
+/docs/PLAN.md
+/docs/PROGRESS.md
+/docs/V1.*.md
+/docs/V1.*-PLAN.md
+
+# Unused illustration draft; keep the original prompt as provenance.
+/assets/halloween-manor-v2.png
+
+# Local settings, captures, credentials and temporary files.
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.tmp
+codex-clipboard-*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><Nullable>enable</Nullable><ImplicitUsings>disable</ImplicitUsings></PropertyGroup>
+ <ItemGroup><ProjectReference Include="..\..\src\ChatGptSkinStudio\ChatGptSkinStudio.csproj"/></ItemGroup>
+</Project>

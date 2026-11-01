@@ -1,0 +1,34 @@
+ChatGPT Skin Studio 1.1.4
+
+The manager, renderer, procedural backgrounds and icon were independently
+implemented. No reference project's source code, application binary,
+wallpaper collection or logo is included in this release.
+
+The bundled Lantern Manor illustration was generated and refined for this
+project using the built-in image_gen tool. Generation prompts and actual
+source dimensions are preserved in the source project's assets directory.
+It is not extracted from a user's Wallpaper Engine library.
+
+Research references (not bundled dependencies):
+https://github.com/Fei-Away/Codex-Dream-Skin (MIT)
+https://github.com/xxloocee/Codex-Dream-Skin-Manager (MIT)
+https://github.com/Rice-dog/code-codex (MIT)
+https://github.com/CCDawn/Codex-Dynamic-Skin (MIT)
+https://github.com/cixiangtao/codex-skin
+https://github.com/TonyNa-code/codex-background-theme
+https://learn.microsoft.com/en-us/windows/apps/design/style/acrylic
+https://github.com/notscuffed/repkg (format reference, not bundled)
+https://github.com/uKeps/wallpaper-engine-extractor (behavior reference, not bundled)
+See docs/RESEARCH.md for the architecture and distinctions.
+
+The Windows distribution includes Microsoft .NET 8 / Windows Desktop
+runtime components under their accompanying licenses. The runtime license
+and third-party notice files are included under licenses/dotnet and
+licenses/windowsdesktop in the application folder.
+Windows graphics, WIC and Media Foundation are operating system components.
+No separate codec pack is redistributed.
+
+Wallpaper Engine is a separately installed product and is not included.
+User wallpaper images, videos and scenes retain their respective authors'
+terms. They are not bundled. ChatGPT and Codex are OpenAI products; this
+companion is independent, not an official OpenAI extension.

@@ -1,0 +1,6 @@
+Tool: built-in image_gen (generation, then detail refinement using the generated artwork as edit target). No API/CLI fallback.
+Selected output: halloween-manor-final.png, actual 1672 x 941 pixels. The tool was asked for 3840 x 2160 but returned this size; the product displays the actual source size and does not upscale the file or label it 4K.
+Original generation prompt: see halloween-manor-v2.prompt.txt.
+
+Final refinement prompt:
+Use case: precise-object-edit. Edit target: the provided Halloween manor wallpaper. This is the final production artwork, not a preview. Preserve the exact overall composition, perspective, pumpkins, manor architecture, warm amber lanterns, violet moonlit forest valley and quiet central space. Re-render and refine at the highest native output detail, requested actual export 3840 x 2160 pixels (16:9 landscape), with crisp carved stone, intricate wrought iron, fine autumn leaves, sharp pumpkin carvings and natural mist depth. Do not merely enlarge or blur the smaller image. Keep the mature elegant cinematic look and restrained highlights; no added objects, text, logo, border, UI or watermark. The subject and layout should remain recognizable.
